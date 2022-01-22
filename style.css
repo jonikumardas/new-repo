@@ -1,0 +1,146 @@
+
+#Top-nav{
+    background-color:#2B2C2C;
+    padding: 0 5%;
+
+}
+.nav-item{
+    font-size:15px;
+    padding: 0 4%;
+    margin-left: 2%;
+    font-weight: bold;
+}
+#seach{
+    background-color: none;
+    border: none;
+    border-radius: none;
+    box-shadow: 2px 6px 3px #000;
+}
+#seach:hover{
+    box-shadow: none;
+}
+#seach::placeholder{
+    color: black;
+}
+#search-btn{
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+}
+/* .containr img{ */
+    /* width: 100%;  */
+    /* padding: 0,30px;     */
+/* } */
+/* .containr{ */
+    /* position: relative; */
+
+    #position{
+       padding-left: 8%;
+        margin-top: 25%;
+
+    }
+#position h1{
+    color: #fff;
+    font-size: 55px;
+    font-weight: bold;
+}
+#position p{
+   padding-top:2%;
+    color:#fff;
+    font-size: 33px;
+}
+#position button{
+    background-color:#FF630B;
+    color: #fff;
+    margin-bottom: 20%;
+   
+}
+
+@media only screen and (max-width:915px) {
+    /* .position{ */
+        /* margin-left: 2%; */
+        /* margin-top: -43%; */
+
+    /* } */
+    #position{
+        padding-left: 6%;
+         margin-top:1%;
+         margin-bottom:-1%;
+    }
+    #position{
+        padding-left: 8%;
+         margin-top: 25%;
+     }
+    #position h1{
+       
+        font-size: 23px;
+    }
+    #position p{
+        font-size: 14px;
+    }
+
+}
+@media only screen and (max-width:1080px) {
+    /* .position{ */
+        /* margin-left: 5%; */
+        /* margin-top: -30%; */
+
+    /* } */
+    #position{
+        padding-left: 6%;
+         margin-top:1%;
+         margin-bottom:-1%;
+    }
+    #position h1{
+        font-weight: bold;
+        font-size: 30px;
+    }
+    #position p{
+        font-size: 16px;
+    }
+
+}
+@media only screen and (max-width:414px) {
+    /* .position{ */
+        /* margin-left: 5%; */
+        /* margin-top: -43%; */
+
+    /* } */
+    #position{
+        padding-left: 1%;
+         margin-top:1%;
+         margin-bottom:-10%
+    }
+    #position h1{
+        font-weight: bold;
+        font-size: 25px;
+    }
+    #position p{
+        font-size: 14px;
+    }
+
+}
+/*  
+.container-full{
+    background-image: url("img/bg2.png");
+    background-size: cover;
+}
+*/
+#container-body{
+    background-image: url("img/hederbg.png");
+    background-size: cover;
+    height: 100%;
+    padding:30px;
+}
+#container-full2{
+    background-image: url('img/bg2.png');
+    background-size: cover;
+    padding: 5%;
+    background-color: #2B2C2C;
+}
+.card{
+    background-color: #2B2C2C;
+}
+
